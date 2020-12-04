@@ -1,0 +1,235 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
+}
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+#head {
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)) , url('computer.jpg' );
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center; 
+}
+.navbar {
+    display: flex;
+    background: #000;
+    color: #d5f4dd;
+    justify-content: space-between;
+    padding: 15px 30px;
+    width: 100%;
+}
+.logo {
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.nav {
+    margin-right: 
+}
+.nav-item {
+    display: inline;
+    padding: 10px 20px;
+}
+.nav-link {
+    color: white;
+    text-decoration: none;
+}
+#portfolio {
+    height: 100vh;
+    width: 100%;
+    background: aqua;
+}
+#about {
+    height: 100vh;
+    width: 100%;
+    background: darkgray;
+}
+#gallery {
+    height: 100vh;
+    width: 100%;
+    background: lightcyan;
+}
+#contact {
+    width: 100%;
+    background:dimgray;
+    
+}
+.icons{
+    margin-top: 35vh;
+    margin-left: 65vw;
+    justify-content: space-between;
+    
+}
+.icons a {
+    padding: 0 20px;
+    text-decoration: none;
+}
+.fa-facebook {
+    color: #1877f2; 
+}
+.fa-whatsapp{
+    color: #25d366;
+}
+.fa-twitter{
+    color: #1da1f2;
+}
+.instagram{
+    color:#e1306c;
+}
+.fa-caret-down{
+    color: white;
+}
+
+.header-content {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+    place-items: center;
+    padding-top: 200px;
+    font-size: 190%; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+ div.img{
+margin: 25px 12px;
+border: 0px solid #ccc;
+float: left;
+width: 200px;
+padding-top: 15px;
+}
+
+div.img img {
+width: 100%;
+height: auto;
+} 
+*{
+    box-sizing: border-box;
+}
+input[type=text],select,textarea{
+width: 50%; 
+padding: 12px;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+margin-top: 10px;
+margin-bottom: 20px;
+resize: vertical; 
+font-size: 1em;
+ }
+ input[type=button]{
+     background-color:  #4caf50;
+     color:  white;
+     padding: 12px 20px;
+     border: none;
+     border-radius: 4px;
+     cursor: pointer;
+
+    }
+ input[type=button]:hover{
+     background-color: #45a049;
+     padding: 10px;
+    }
+ .container{
+     position: relative;
+     width: 60%;
+     border-radius: 5px;
+     background-color: gray;
+     padding: 7px 30px;
+     margin: 0 auto;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+     }
+ .last{
+     color:white; font-weight: bold; font-family: Arial, Helvetica, sans-serif;
+     text-align: center;padding-top: 10px; font-size: 2em;
+ }
+ .container select {
+     font-size: 1em;
+ }
+ .container label{
+     font-size: 1.4em; 
+ }
+ footer{
+     background-color: #000;
+     color: #ccc;
+     
+ }
+ .left img{
+border-radius: 47%;
+height: 360px;
+border: 13px solid gray;
+float: left;
+margin-left: 40px;
+margin-top: 75px;
+}
+.right{
+ width: 800px;
+ height: auto;
+ float: right;
+ margin-top: 10px;
+ margin-right: 200px;
+
+}    
+.right h1{
+ font-size: 2em;
+ text-transform: uppercase;
+ text-align: center;
+ padding: 5px;
+ color: darkcyan;
+ 
+}
+hr{
+ border: 3px solid white;   
+}
+.first-p {
+padding-top: 10px;
+}
+.first-p p {
+ font-size: 1.5em; font-style: italic; 
+} 
+.cert{
+ margin-top:20px;
+}
+.second-p{
+ font-size: 1.1em;
+ font-family: 'Times New Roman', Times, serif;
+ font-style: italic;
+}
+.third-p p{
+ font-size: 1.2em;
+ text-align: center;
+ font-family: 'Times New Roman', Times, serif;
+ font-style: normal;
+ padding-top: 10px;
+}
+.fourth-p{font-size: 1.2em;
+ font-family: 'Times New Roman', Times, serif;
+ font-style: normal;
+ padding-top: 10px;
+ justify-content: center;
+ margin-top: 15px;
+  }
+ footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 50px;
+    padding-bottom: 15px;
+    
+ }
+ .footer-icons a{
+    padding: 0 10px;
+    text-decoration: none;
+ }
+  .right-area {
+      font-size: 1.6em;
+  }
+  .left-area {
+    font-size: 1.6em;
+}
